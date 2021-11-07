@@ -1,0 +1,265 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  background: #d4cea7;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* custome style ..... */
+* {
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: flex-start; */
+}
+ol {
+  list-style-type: num;
+  /* margin-bottom: 50px; */
+  list-style-position: inside;
+  padding: 10px;
+  text-transform: capitalize;
+}
+ul li {
+  /* list-style-type: disc; */
+  padding: 5px 15px;
+  text-transform: capitalize;
+}
+li {
+  padding: 10px;
+}
+header {
+  width: 100%;
+  background: #eb5d28;
+}
+.container {
+  max-width: 100%;
+  /* margin: 0 auto; */
+  background: #d4cea7;
+}
+.navbar {
+  width: 90%;
+  margin: 0 0 0 45px;
+  padding: 15px;
+  background: #eb5d28;
+  /* padding: 10px; */
+}
+.nav-menu li {
+  background: #eb5d28;
+  margin-right: 50px;
+  /* padding: 10px; */
+}
+.nav-menu a {
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #eeedd7;
+  font-weight: 900;
+}
+
+/* ..... */
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+.box-container {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.box {
+  width: 30%;
+  height: 400px;
+  padding: 30px;
+  /* border: 1px solid black; */
+  background: #245a79;
+  box-shadow: 7px 7px 5px 3px rgb(138, 134, 119);
+  color: #cccba7;
+  width: 600;
+}
+
+.box1 li {
+  list-style-position: initial;
+}
+.box2 ul {
+  list-style-type: disc;
+}
+.box2 ol li {
+  list-style-position: inside;
+}
+
+.box3-ul {
+  list-style-type: none;
+  /* list-style-image: url(./tick.png); */
+}
+.box3-ul li:before {
+  content: "";
+
+  display: inline-block;
+
+  height: 15px;
+
+  width: 15px;
+
+  background-size: 15px;
+
+  background-image: url(./tick.png);
+  margin-right: 15px;
+  vertical-align: middle;
+}
+dt {
+  font-size: 30px;
+  color: #252c22;
+  text-transform: capitalize;
+  /* padding: 20px; */
+  font-weight: 600;
+  list-style-position: initial;
+}
+dd {
+  margin-left: 45px;
+  margin: 20px;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer {
+  background: #252c22;
+  padding: 20px;
+}
+.footer-menu a {
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: white;
+  font-weight: 900;
+  padding: 10px;
+  margin-left: 30px;
+}
